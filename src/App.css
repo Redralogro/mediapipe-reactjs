@@ -139,3 +139,36 @@ body {
   position: absolute;
 }
 
+.capture-count {
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  width: fit-content
+}
+
+.webcam{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 9;
+  width: 640;
+  height: 480;
+  visibility: hidden;
+}
+
+
+.output_canvas{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 9;
+  width: 640;
+  height: 480;
+}
+

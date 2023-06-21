@@ -151,8 +151,8 @@ function App() {
                 height: 480,
             }
         }
-        />{" "} <
-        canvas ref = { canvasRef }
+        mirrored = { true }
+        />{" "} <canvas ref = { canvasRef }
         className = "output_canvas"
         style = {
             {
@@ -165,12 +165,11 @@ function App() {
                 zindex: 9,
                 width: 640,
                 height: 480,
+                transform: "scaleX(-1)"
             }
         } >
         <
-        /canvas> < /
-        div > <
-        /center>
+        /canvas> </div > < /center>
     );
 }
 
