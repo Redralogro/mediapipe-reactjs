@@ -20,6 +20,7 @@
     "assert": "^2.0.0",
     "axios": "^1.4.0",
     "babel-plugin-preval": "^5.1.0",
+    "bootstrap": "^5.3.0",
     "buffer": "^6.0.3",
     "crypto-browserify": "^3.12.0",
     "i": "^0.3.7",
@@ -32,6 +33,7 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-webcam": "^7.0.1",
+    "reactstrap": "^9.2.0",
     "stream": "^0.0.2",
     "stream-browserify": "^3.0.0",
     "stream-http": "^3.2.0",
@@ -43,7 +45,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "HTTPS=true SSL_CRT_FILE=/home/staging/deploy/dxtech_ssl/dxtech.vn.crt SSL_KEY_FILE=/home/staging/deploy/dxtech_ssl/dxtech.vn.key  PORT=8888  react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
